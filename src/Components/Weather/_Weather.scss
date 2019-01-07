@@ -1,0 +1,52 @@
+.weatherDetails{
+        height:400px;
+        width:100%;
+        background:url(./images/weather-app.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: bottom;
+margin-top:50px;
+        .weather-report{
+                width:70rem;
+                background-color: rgba(46, 48, 42, 0.5);
+                color:white;
+                height:300px;
+                margin:0 auto;
+        }
+
+        .weatherinfo{
+                margin-left:50px;
+                margin-top:20px;
+                color: white;
+                clear:both;
+                display: inline-block;
+               
+        }
+        .city{
+                font-size: 2rem;
+        }
+.date-content{
+        color:white;
+    margin-left:200px;
+    margin-top:80px;
+    display: inline-block;
+    line-height:5rem;
+
+
+        
+}
+
+
+
+
+
+
+
+}
+
+/* clearfix: force an element not to collapse*/
+.clearfix:after{
+        content: "";
+        display: table;
+        clear: both;
+        }

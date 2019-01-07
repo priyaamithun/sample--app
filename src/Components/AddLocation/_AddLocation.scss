@@ -1,0 +1,60 @@
+
+.breadcrumb{
+margin-top:55px;
+    padding-top:30px;
+.breadcrumb-item{
+    display: inline-block;
+   clear: both;
+ margin-left: 15px;
+ margin-top:15px;
+ 
+}
+.breadcrumb-item input{
+
+    height:50px;
+    width:360px;
+}
+.searchIcon {
+    display:inline-block;
+    font-size: 40px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    clear: both;
+    margin-left:28px;
+
+}
+a{
+    color:black;
+}
+.addLocation{
+    margin-top:10px;
+    display: inline-block;
+    clear: both;
+    margin-bottom:15px;
+    margin-left : 150px;
+    color:#3FB6B2;
+    
+}
+.Location-heading{
+    margin-left:20px;
+    font-size: $Mediumfontsize;
+
+}
+margin-bottom:0px;
+}
+
+
+
+
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both; }
+  

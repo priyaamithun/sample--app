@@ -1,0 +1,171 @@
+.breadcrumb {
+  margin-top: 55px;
+  padding-top: 30px;
+  margin-bottom: 0px; }
+  .breadcrumb .breadcrumb-item {
+    display: inline-block;
+    clear: both;
+    margin-left: 15px;
+    margin-top: 15px; }
+  .breadcrumb .breadcrumb-item input {
+    height: 50px;
+    width: 360px; }
+  .breadcrumb .searchIcon {
+    display: inline-block;
+    font-size: 40px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    clear: both;
+    margin-left: 28px; }
+  .breadcrumb a {
+    color: black; }
+  .breadcrumb .addLocation {
+    margin-top: 10px;
+    display: inline-block;
+    clear: both;
+    margin-bottom: 15px;
+    margin-left: 150px;
+    color: #3FB6B2; }
+  .breadcrumb .Location-heading {
+    margin-left: 20px;
+    font-size: 20px; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+header .navbar h1 {
+  color: white;
+  font-size: 28px;
+  margin-left: 50px;
+  font-style: italic; }
+header .navbar .buttonColor {
+  background-color: #45C8C4; }
+header .navbar .responsiveIcon {
+  color: white; }
+
+.weatherDetails {
+  height: 400px;
+  width: 100%;
+  background: url(./images/weather-app.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  margin-top: 50px; }
+  .weatherDetails .weather-report {
+    width: 70rem;
+    background-color: rgba(46, 48, 42, 0.5);
+    color: white;
+    height: 300px;
+    margin: 0 auto; }
+  .weatherDetails .weatherinfo {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    clear: both;
+    display: inline-block; }
+  .weatherDetails .city {
+    font-size: 2rem; }
+  .weatherDetails .date-content {
+    color: white;
+    margin-left: 200px;
+    margin-top: 80px;
+    display: inline-block;
+    line-height: 5rem; }
+
+/* clearfix: force an element not to collapse*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.form .form-row .col-5 {
+  margin-left: 20px; }
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+.autoSuggest {
+  list-style: none; }
